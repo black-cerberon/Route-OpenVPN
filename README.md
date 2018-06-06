@@ -22,5 +22,5 @@ pull-filter ignore "route-ipv6 "
 ```
 Now you can add routing lists:
 ```
-config /PATH/TO/FILE/RKN-Jailbreak.conf
+config /PATH/TO/FILE/RKN-jailbreak.conf
 ```
