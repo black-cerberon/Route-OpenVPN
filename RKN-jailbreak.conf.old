@@ -1,8 +1,27 @@
+# Amazon AWS
+route 13.125.0.0 255.255.0.0 vpn_gateway
+route 13.230.0.0 255.254.0.0 vpn_gateway
+route 13.56.0.0 255.252.0.0 vpn_gateway
+route 18.130.0.0 255.255.0.0 vpn_gateway
+route 18.144.0.0 255.255.0.0 vpn_gateway
+route 18.204.0.0 255.252.0.0 vpn_gateway
+route 18.218.0.0 255.255.0.0 vpn_gateway
+route 18.236.0.0 255.254.0.0 vpn_gateway
+route 34.240.0.0 255.248.0.0 vpn_gateway
+route 34.248.0.0 255.248.0.0 vpn_gateway
+route 35.176.0.0 255.254.0.0 vpn_gateway
+route 35.178.0.0 255.254.0.0 vpn_gateway
+route 35.180.0.0 255.255.0.0 vpn_gateway
+route 52.32.0.0 255.255.0.0 vpn_gateway
+route 52.56.0.0 255.255.0.0 vpn_gateway
+route 52.57.0.0 255.255.0.0 vpn_gateway
+route 54.212.0.0 255.254.0.0 vpn_gateway
+route 54.228.0.0 255.254.0.0 vpn_gateway
+
 # Blackberry Messenger
 route 68.171.224.0 255.255.224.0 vpn_gateway
 route 74.82.64.0 255.255.224.0 vpn_gateway
 route 103.246.200.0 255.255.252.0 vpn_gateway
-route 178.239.88.0 255.255.248.0 vpn_gateway
 
 # Cloudflare
 route 103.22.200.0 255.255.252.0 vpn_gateway
@@ -19,8 +38,8 @@ route 190.93.240.0 255.255.240.0 vpn_gateway
 route 197.234.240.0 255.255.252.0 vpn_gateway
 route 198.41.128.0 255.255.128.0 vpn_gateway
 
-# Clouding.io Virtual Machine Hosting
-route 185.166.212.0 255.255.254.0 vpn_gateway
+# Cloud Services DC05
+route 94.177.224.0 255.255.248.0 vpn_gateway
 
 # CloudWebManage
 route 185.229.227.0 255.255.255.0 vpn_gateway
@@ -60,6 +79,9 @@ route 203.104.152.0 255.255.252.0 vpn_gateway
 # LinkedIn Corporation
 route 108.174.10.0 255.255.255.0 vpn_gateway
 
+# Microsoft Azure
+route 51.136.0.0 255.254.0.0 vpn_gateway
+
 # Network Layer Technologies Inc
 route 64.137.0.0 255.255.128.0 vpn_gateway
 
@@ -81,7 +103,11 @@ route 91.108.56.0 255.255.252.0 vpn_gateway
 
 # SoftLayer Technologies
 route 50.97.32.0 255.255.224.0 vpn_gateway
+route 159.122.128.0 255.255.192.0 vpn_gateway
 route 184.173.128.0 255.255.192.0 vpn_gateway
+
+# Vultr Holdings, LLC
+route 45.76.82.0 255.255.254.0 vpn_gateway
 
 # UK2 Infrastructure
 route 176.67.169.0 255.255.255.0 vpn_gateway
