@@ -8,8 +8,6 @@
 
 **social** - Social networks and messengers
 
-**RKN-jailbreak.conf** - For selective routing bypass russian censorship (Roskomnadzor)
-
 ## Setup
 
 Before use this lists, you need edit OpenVPN profile (ovpn).
